@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  height: 100vh;
+  width: 100vw;
+  transition: all 2s ease-in-out;
+}
+
+.green {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  animation: animate 3s linear infinite;
+  background: linear-gradient(#000, #0f0, #000);
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(600%);
+  }
+}
+span {
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  transition: all 2s;
+}
+
+span:hover {
+  background-color: #0f0;
+  transition: all 0.01s;
+}
+
+span:hover {
+  background-color: #0f0;
+  transition: all 0.02s;
+}
+
+span:hover {
+  background-color: #0f0;
+  transition: all 0.03s;
+}
+span:hover {
+  background-color: #0f0;
+  transition: all 0.04s;
+}
+span:hover {
+  background-color: #0f0;
+  transition: all 0.05s;
+}
+span:hover {
+  background-color: #0f0;
+  transition: all 0.06s;
+}
+span:hover {
+  background-color: #0f0;
+  transition: all 0.07s;
+}
+span:hover {
+  background-color: #0f0;
+  transition: all 0.08s;
+}
+span:hover {
+  background-color: #0f0;
+  transition: all 0.09s;
+}
+
+
